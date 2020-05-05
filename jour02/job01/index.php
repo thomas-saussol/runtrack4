@@ -45,6 +45,7 @@
   <input type="checkbox" id="horns" name="horns">
   <label for="horns">Lecture</label>
 
+<input type="button" name="button" value="Valider">
 
 </form>
 
