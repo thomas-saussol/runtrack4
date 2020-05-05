@@ -17,7 +17,25 @@
 </header>
 
 <form class="" action="index.html" method="post">
-  <input type="radios" name="" value="" placeholder="Civilité">
+  <div>
+    <input type="radio" name="drone" value="Mr."
+           checked>
+    <label for="Mr.">Mr.</label>
+  </div>
+
+  <div>
+  <input type="radio" name="drone" value="Mme."
+         checked>
+  <label for="Mme.">Mme.</label>
+</div>
+
+<div>
+  <input type="radio" name="drone" value="Mlle."
+         checked>
+  <label for="Mlle.">Mlle.</label>
+</div>
+
+
   <input type="text" name="Nom" value="" placeholder="Nom">
   <input type="text" name="Prénom" value="" placeholder="Prénom">
   <input type="text" name="Adresse" value="" placeholder="Adresse">
