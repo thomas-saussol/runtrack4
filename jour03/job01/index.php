@@ -74,6 +74,9 @@ background-color: rgba(247, 247, 247, 0.82);
   <hr class="my-4">
   <p>Le sens étendu designe l'univers dans son ensemble.</p>
   <a class="btn btn-primary btn-lg .text-danger" href="#" role="button" >Rebooter le Monde</a>
+  <div class="spinner-border" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
 
   <div class="row justify-content-end" role="toolbar" aria-label="Toolbar with button groups">
     <div class="btn-group mr-2" role="group" aria-label="First group">
