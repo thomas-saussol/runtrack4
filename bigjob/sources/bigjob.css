@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+
+html{
+margin: 0;
+
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
