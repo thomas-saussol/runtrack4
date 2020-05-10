@@ -26,9 +26,6 @@ if(isset($_SESSION['login']))
 <body>
 
 		<?php include("header.php");?>
-<?php if ($_GET['new']=1) {
-echo "Votre compte a bien été créé!<br> <br>" ;
-} ?>
 
 <h1 class="log_titre">Connectez-vous !</h1>
 

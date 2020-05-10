@@ -60,9 +60,9 @@ if(isset($_SESSION['login']))
 </div>
 </div>
 </div>
-
-
-<?php include("footer.php");?>
+ <div class="image_inscription">
+<img src="inscriptions.jpg" alt="">
+ </div>
 	</body>
 </html>
 

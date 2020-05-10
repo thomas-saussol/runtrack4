@@ -13,6 +13,6 @@
 		<div class="contact">
 			<a href="mailto:adm@laplateforme.io"><button class="mail">Contactez-nous</button></a>
 		</div>
-		<?php include("footer.php");?>
+		
 	</body>
 </html>

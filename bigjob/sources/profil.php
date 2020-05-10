@@ -31,7 +31,7 @@ $monprofil=$user->getAllInfos();
 
 	</head>
 
-	<body>
+	<body id="profil_toto">
 		<?php include("header.php");?>
 
 <h1 class="log_titre">Vos informations</h1>
@@ -60,7 +60,6 @@ $monprofil=$user->getAllInfos();
 			<input type="submit" name="update" required value="Modifier">
 		</form>
 </div>
-		<?php include("footer.php");?>
 	</body>
 </html>
 

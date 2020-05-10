@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+<?php
+include("functions.php");
+$user = new userpdo;
+
+?>
+
+
 <html>
  <head>
   <title>Calendrier de LaPlateforme</title>
@@ -9,7 +16,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/locale/fr.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.js"></script>
-
 
   <script>
 
@@ -22,6 +28,14 @@
               day: 'Jour',
               list: 'Liste'
           },
+
+          dayNames: ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'],
+        dayNamesShort: ['Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam'],
+        monthNames: ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet',
+            'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
+        monthNamesShort: ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet',
+            'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
+
           editable: true,
           header: {
           left: 'prev,next today',
@@ -112,8 +126,9 @@
 
 
  </head>
- <body>
 
+
+ <body>
    <?php include("header.php");?>
   <br />
   <h2 align="center"><a href="#">Calendrier des allées venues</a></h2>

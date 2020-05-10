@@ -14,17 +14,18 @@ if(isset($_POST['deco']))
     {
     ?>
 
+<div class="container row">
 
       <a href=""><div class="logoprofilhover"></div></a>
-        <ul>
-
-            <a class="navbar navbar-expand-lg navbar-light bg-light" class="menu" href="profil.php">Mon profil</a>
+        <ul class="row justify-content-center">
+            <a class="navbar navbar-expand-lg navbar-light bg-light" href="index.php">Accueil</a>
             <a class="navbar navbar-expand-lg navbar-light bg-light" href="calendrier.php">Calendrier</a>
-            <a class="navbar navbar-expand-lg navbar-light bg-light" href="administration.php">Administration</a>
+            <a class="navbar navbar-expand-lg navbar-light bg-light" class="menu" href="profil.php">Mon profil</a>
+
 
         </ul>
 
-
+</div>
 
       <a href="index.php"><div class="logohover"></div></a>
 
@@ -40,7 +41,9 @@ if(isset($_POST['deco']))
 else
 {
 ?>
+<div class="container">
 
+</div>
 <ul>
 
     <a href="index.php"><div class="logohover"></div></a>
@@ -54,5 +57,6 @@ else
 ?>
 </ul>
 
+</div>
 </nav>
 </header>
